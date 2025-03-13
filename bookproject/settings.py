@@ -71,6 +71,8 @@ TEMPLATES = [
     },
 ]
 
+STATIC_ROOT = BASE_DIR / 'static'
+
 WSGI_APPLICATION = 'bookproject.wsgi.application'
 
 
